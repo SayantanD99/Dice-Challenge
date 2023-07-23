@@ -1,3 +1,4 @@
+document.getElementById("clickMeButton").addEventListener("click", function() {
 var randomNumber1 = Math.floor( Math.random() * 6 ) + 1;
 var randomDiceImage1 = "dice" + randomNumber1 + ".png";
 var randomImageSource1 = "images/" + randomDiceImage1;
@@ -19,3 +20,4 @@ else if(randomNumber1 < randomNumber2){
 else{
     document.querySelector("h1").textContent = "Draw!";
 }
+});

@@ -10,8 +10,27 @@
 
 }
 
+.centerbtn {
+  margin: 0;
+  position: inline-block;
+  top: 10%;
+  left: 10%;
+  -ms-transform: translate(10%, 10%);
+  transform: translate(0%, 10%);
+}
+
 body {
   background-color: #393E46;
+}
+
+#clickMeButton{
+  width: 6em;
+  height: 4em;
+  font-family: 'Lobster', cursive;
+  color: #4ECCA3;
+  background-color: #393E46;
+  border: 0.4em solid #d4f7da;
+  border-radius: 50%;
 }
 
 h1 {
